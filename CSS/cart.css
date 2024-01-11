@@ -1,0 +1,35 @@
+.price{
+display: flex;
+
+}
+.discount{
+display: flex;
+
+}
+.charges{
+display: flex;
+
+}
+.total{
+display: flex;
+}
+.innerContainer{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+  
+}
+.container{
+border: 2px solid yellow;
+display: flex;
+margin: 4rem;
+}
+.left-portion{
+    margin: 2rem;
+border: 2px solid red;
+padding: 39px;
+}
+.heading2{
+    font-size: 2.5rem;
+    
+}
