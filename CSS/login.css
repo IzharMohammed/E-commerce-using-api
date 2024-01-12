@@ -1,0 +1,30 @@
+.column{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 15rem 0rem 0rem 26rem;
+}
+/* .container{
+    border: 2px solid crimson;
+    display: flex;
+ max-width: 900px;
+max-height: 500px;
+} */
+.heading1{
+    font-size: 2.2rem;
+}
+.heading2{
+    font-size: 2rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 11.875rem;
+    gap: 19px;
+}
+.lastDiv{
+
+}
