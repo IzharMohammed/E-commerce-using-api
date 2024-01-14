@@ -43,19 +43,13 @@
   box-shadow: 4px 4px 7px black;
   transition: all 0.4s;
 }
-.products:hover{
+.products1:hover{
 box-shadow: 1px 1px;
 transform: translateX(5px);
 }
 .heading2{
     font-size: 1.9rem;
     margin-left: 45px;
-}
-.search{
-
-}
-.clearFilters{
-
 }
 .buttons
 {
@@ -118,4 +112,16 @@ margin-left: 40px;
 color: rgb(71, 120, 98);
 
 
+}
+.min-range{
+  padding: 8px 21px;
+  font-size: 21px;
+  margin-bottom: 22px;
+  margin-left: 36px;
+}
+.max-price{
+  padding: 8px 21px;
+  font-size: 21px;
+  margin-bottom: 22px;
+  margin-left: 36px;
 }
