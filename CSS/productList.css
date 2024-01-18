@@ -43,6 +43,10 @@
   box-shadow: 4px 4px 7px black;
   transition: all 0.4s;
 }
+.products1 a{
+  color: black;
+  text-decoration: none;  
+}
 .products1:hover{
 box-shadow: 1px 1px;
 transform: translateX(5px);

@@ -12,15 +12,12 @@ async function categoriesDom(){
             const div =document.createElement('div')
             const a = document.createElement('a')
             div.classList.add('products')
-            a.href=''
+            a.href=`productList.html?category=${element}`
             div.append(a)
             a.textContent=element
             categoryRow.append(div)
         })
-        
         // document.append(div)
-
-
 }
 
 categoriesDom()

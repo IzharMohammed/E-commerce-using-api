@@ -8,13 +8,7 @@
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-
 <!-- Navigation bar -->
-
-
-
-
-
     <div class="rowUp">
         <div class="heading">
         <a href="index.html">Shop Cart</a>
@@ -43,16 +37,15 @@
     Categories
 </div>
 
-<div class="categoryList">
- <div class="products1">Electronics</div>
- <div class="products1">Electronics</div>
- <div class="products1">Electronics</div>
- <div class="products1">Electronics</div>
- <div class="products1">Electronics</div>
+<div class="categoryList" id="categoryList">
+ <!-- <div class="products1"><a href="productList.html?category=electronics">Electronics</a></div>
+ <div class="products1"><a href="productList.html?category=jewelery">jewelery</a></div>
+ <div class="products1"><a href="productList.html?category=men's clothing">men's clothing</a></div>
+ <div class="products1"><a href="productList.html?category=women's clothing">women's clothing</a></div> -->
 </div>
 
 <div class="ranges">
-    <select name='min-price' class="min-range">
+    <select name='min-price' class="min-range" id="min-price">
         <option value="0">0</option>
         <option value="10">10</option>
         <option value="20">20</option>
@@ -60,7 +53,7 @@
         <option value="100">100</option>
         <option value="200">200</option>
     </select>
-        <select name='max-price' class="max-price">
+        <select name='max-price' class="max-price" id="max-price">
           <option value="0">0</option>
          <option value="10">10</option>
         <option value="20">20</option>
@@ -92,47 +85,10 @@
 
 
 
-
-
-
-
-
-
-
-
+</div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-</div>
-            
-
-
-    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="JS/productList.js"></script>
