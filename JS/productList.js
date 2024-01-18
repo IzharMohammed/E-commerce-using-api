@@ -61,7 +61,8 @@ const imgDiv=document.createElement('div')
 const productName = document.createElement('div')
 const productPrice = document.createElement('div')
 const productDetails = document.createElement('a')
-productDetails.href='productDetails.html'
+console.log(product.id);
+productDetails.href=`productDetails.html?id=${product.id}`
 //adding class name
 imgDiv.classList.add('imgDiv')
 productName.classList.add('product-name')
