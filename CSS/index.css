@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
-    /* margin: 0px;
-    padding: 0px; */
-}
+
 :root {
     --blue-gray: #ecf0f1;
     --pale-blue: #2c3e50;
@@ -13,12 +10,14 @@
     --dark-sky-blue: #c7ecee;
     --light-gray: #ccc;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.products{
+
+.products {
     box-shadow: 4px 4px 2px var(--mid-gray);
     margin: 42px;
     padding: 20px;
@@ -27,46 +26,52 @@
     background-color: gray;
     transition: all 0.4s;
 }
-.products a{
+
+.products a {
     color: white;
-  text-decoration: none;
+    text-decoration: none;
 }
-.products:hover{
+
+.products:hover {
     box-shadow: 0px 0px;
-/* transition: box-shadow 0.15s linear 0s;*/
     transform: translateX(12px);
 }
-.rowUp{
+
+.rowUp {
     display: flex;
     padding: 36px;
-    /* margin-bottom: 9rem; */
     justify-content: space-between;
     background-color: #efbfbf;
     margin-bottom: 6rem;
 }
-.heading{
+
+.heading {
     font-size: 3rem;
     padding-left: 50px;
 }
-.heading a{
+
+.heading a {
     text-decoration: none;
     color: black;
 }
-.rightportion{
+
+.rightportion {
     display: flex;
-  align-items: center;
-  justify-content: revert;
-  gap: 3rem;
-  font-size: 1.85rem;
+    align-items: center;
+    justify-content: revert;
+    gap: 3rem;
+    font-size: 1.85rem;
 }
-.rightportion a{
+
+.rightportion a {
     text-decoration: none;
     color: black;
 }
-.main-heading{
+
+.main-heading {
     letter-spacing: 2px;
     font-size: 1.5rem;
-  margin-bottom: 3rem;
-   text-align: center;
-   font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
